@@ -63,7 +63,7 @@ frutas.remove("kiwi")
 
 #print(frutas)
 
-personas = ["cristian", "esteban"]
+"""personas = ["cristian", "esteban"]
 
 for i in personas: #i lee cada indice
     print(i)
@@ -76,21 +76,45 @@ while True:
     if nombre == "salir":
         break
     alumnos.append(nombre)
-    print(alumnos)
+    print(alumnos)"""
 
+"""alumnos = ["carlos", "manuel"]
 
+print(alumnos)"""
 
 
 
 
 ##diccionarios
 
+#print(len(alumnos))
 
 
+"""for i in range(1,20,5):
+    print(i)"""
 
 
+#rango si le paso 4 me genera = 0,1,2,3,4
+#rango se lo paso 10 = 0,1,2,3,4,5,6,7,8,9
 
 
+numeros = [1,2,3,4,5,2,3,7,8,4,2,7,9,4,8,1,4,9,7,]
+ordenados = sorted(numeros , reverse=True)
+print(ordenados)
+
+numero = complex(2,3)
+x = 2 + 3j
+
+
+#splices
+
+print(ordenados[0])
+
+texto = "esto es un texto"
+
+print(texto[::-1])
+
+print(ordenados.count(7))
 
 
 
