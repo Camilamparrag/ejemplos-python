@@ -116,6 +116,9 @@ print(texto[::-1])
 
 print(ordenados.count(7))
 
+#diccionarios
+
+
 
 
 
